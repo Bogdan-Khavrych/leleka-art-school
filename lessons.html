@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ru" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:type" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+
+    <meta name="twitter:card" content="">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+
+    <title>Leleka Art School - Сообщество людей,
+        влюбленных в живопись</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-config" content="./favicon/browserconfig.xml">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/slick.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="header__wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a href="#" class="header__logo-link">
+                            <img class="header__logo-img" src="images/header-logo.svg" alt="#">
+                        </a>
+                    </div>
+                    <div class="header__mob-sidebar">
+                        <a href="#" class="header__user">
+                            <svg width="22" height="24" viewBox="0 0 22 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5 6C15.5 8.48528 13.4853 10.5 11 10.5C8.51471 10.5 6.49999 8.48528 6.49999 6C6.49999 3.51472 8.51471 1.5 11 1.5C13.4853 1.5 15.5 3.51472 15.5 6ZM17 6C17 9.31371 14.3137 12 11 12C7.68628 12 4.99999 9.31371 4.99999 6C4.99999 2.68629 7.68628 0 11 0C14.3137 0 17 2.68629 17 6ZM20.2047 16.2303C19.9413 18.5632 19.1489 20.0156 17.8616 20.9437C16.5069 21.9204 14.3566 22.5 11 22.5C7.64339 22.5 5.4931 21.9204 4.13836 20.9437C2.85106 20.0156 2.05872 18.5632 1.7953 16.2303C1.7874 16.1604 1.80551 16.097 1.86889 16.0315C1.93947 15.9587 2.05643 15.9 2.19999 15.9H19.8C19.9436 15.9 20.0605 15.9587 20.1311 16.0315C20.1945 16.097 20.2126 16.1604 20.2047 16.2303ZM11 24C17.9672 24 21.1047 21.6283 21.6952 16.3986C21.8191 15.301 20.9046 14.4 19.8 14.4H2.19999C1.09542 14.4 0.180831 15.301 0.304768 16.3986C0.89529 21.6283 4.03275 24 11 24Z"
+                                    fill="black" />
+                            </svg>
+                        </a>
+                        <button class="burger"></button>
+                    </div>
+                    <div class="header__menu">
+                        <nav class="header__nav">
+                            <ul class="header__nav-menu">
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__link">Подписка</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__link">Тарифы</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__link">Работы учеников</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__link">Преподаватели</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__link">Отзывы</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__link">О нас</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__link">Блог</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <ul class="header__lang">
+                            <li class="header__lang-item">
+                                <a href="#" class="header__lang-link">UA</a>
+                            </li>
+                            <li class="header__lang-item active">
+                                <a href="#" class="header__lang-link">RU</a>
+                            </li>
+                        </ul>
+                        <div class="header__bot-wrapper">
+                            <span class="header__bot-text">Чат бот</span>
+                            <ul class="header__bot">
+                                <li class="header__bot-item">
+                                    <a href="#" class="header__bot-link tg">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M16 0C11.7575 0 7.685 1.68675 4.6875 4.68625C1.6875 7.68575 0 11.7583 0 16C0 20.2417 1.6875 24.3142 4.6875 27.3137C7.685 30.3132 11.7575 32 16 32C20.2425 32 24.315 30.3132 27.3125 27.3137C30.3125 24.3142 32 20.2417 32 16C32 11.7583 30.3125 7.68575 27.3125 4.68625C24.315 1.68675 20.2425 0 16 0Z"
+                                                fill="url(#paint0_linear_316_922)" />
+                                            <path
+                                                d="M7.24268 15.8309C11.9077 13.7989 15.0176 12.4592 16.5726 11.8119C21.0176 9.96369 21.9401 9.64269 22.5426 9.63194C22.6751 9.62969 22.9701 9.66244 23.1626 9.81819C23.3226 9.94944 23.3676 10.1269 23.3901 10.2514C23.4101 10.3759 23.4377 10.6597 23.4152 10.8812C23.1752 13.4112 22.1327 19.5507 21.6027 22.3844C21.3802 23.5835 20.9376 23.9855 20.5101 24.0247C19.5801 24.1102 18.8751 23.4107 17.9751 22.8209C16.5676 21.8977 15.7727 21.3232 14.4052 20.4224C12.8252 19.3814 13.8501 18.8092 14.7501 17.8742C14.9851 17.6294 19.0801 13.9057 19.1576 13.5679C19.1676 13.5257 19.1777 13.3682 19.0827 13.2852C18.9902 13.2019 18.8526 13.2304 18.7526 13.2529C18.6101 13.2849 16.3626 14.7719 12.0026 17.7137C11.3651 18.1522 10.7876 18.3659 10.2676 18.3547C9.69759 18.3424 8.59766 18.0317 7.78016 17.7662C6.78016 17.4404 5.98262 17.2682 6.05262 16.7149C6.08762 16.4269 6.48518 16.1322 7.24268 15.8309Z"
+                                                fill="white" />
+                                            <defs>
+                                                <linearGradient id="paint0_linear_316_922" x1="16" y1="0" x2="16"
+                                                    y2="32" gradientUnits="userSpaceOnUse">
+                                                    <stop offset="1" stop-color="#2AABEE" />
+                                                    <stop offset="1" stop-color="#229ED9" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="header__bot-item">
+                                    <a href="#" class="header__bot-link vb">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4.6875 4.68625C7.685 1.68675 11.7575 0 16 0C20.2425 0 24.315 1.68675 27.3125 4.68625C30.3125 7.68575 32 11.7583 32 16C32 20.2417 30.3125 24.3142 27.3125 27.3137C24.315 30.3132 20.2425 32 16 32C11.7575 32 7.685 30.3132 4.6875 27.3137C1.6875 24.3142 0 20.2417 0 16C0 11.7583 1.6875 7.68575 4.6875 4.68625ZM16.2866 6.87303C20.1462 6.88985 21.996 8.05098 22.4245 8.43996C23.8485 9.65796 24.5739 12.5726 24.0435 16.8425C23.5814 20.5712 21.0776 21.1544 20.1732 21.3651C20.0728 21.3884 19.9922 21.4072 19.9362 21.4252C19.6984 21.5029 17.4868 22.0512 14.7071 21.8698C14.7071 21.8698 12.6354 24.3667 11.9883 25.0159C11.8873 25.1165 11.7685 25.1575 11.6893 25.1382C11.5791 25.111 11.5485 24.9792 11.5485 24.7866C11.5503 24.511 11.5662 21.3763 11.5662 21.3763C7.65375 20.2904 7.7446 16.3078 7.79617 14.0471C7.79794 13.9693 7.79967 13.8937 7.80118 13.8202C7.84679 11.6099 8.26278 9.79863 9.49759 8.58062C11.7162 6.57304 16.2866 6.87303 16.2866 6.87303ZM16.7204 11.7882C16.5781 11.7808 16.4567 11.89 16.4493 12.0322C16.4419 12.1744 16.5512 12.2957 16.6935 12.3031C17.139 12.3263 17.4419 12.4562 17.6405 12.6613C17.8402 12.8676 17.9682 13.1851 17.9914 13.6513C17.9985 13.7935 18.1196 13.9031 18.2619 13.896C18.4042 13.889 18.5139 13.768 18.5068 13.6258C18.4798 13.0811 18.3257 12.6275 18.0114 12.3029C17.6959 11.977 17.2529 11.816 16.7204 11.7882ZM16.058 10.6434C16.0684 10.5014 16.1921 10.3947 16.3342 10.4051C17.4179 10.4843 18.2901 10.8542 18.9254 11.547L18.9255 11.5471C19.5539 12.2332 19.8526 13.0866 19.8309 14.0875C19.8278 14.2299 19.7098 14.3428 19.5673 14.3397C19.4248 14.3366 19.3118 14.2187 19.3149 14.0764C19.3341 13.1936 19.0742 12.4732 18.5448 11.8952C18.0169 11.3197 17.2791 10.9911 16.2966 10.9193C16.1544 10.9089 16.0476 10.7854 16.058 10.6434ZM15.8624 9.06715C15.7199 9.06616 15.6036 9.18077 15.6026 9.32314C15.6016 9.46551 15.7163 9.58172 15.8588 9.58272C17.2325 9.59227 18.3676 10.0443 19.2818 10.9346C20.1875 11.8166 20.6583 13.0323 20.6704 14.6136C20.6715 14.756 20.7879 14.8705 20.9304 14.8694C21.0729 14.8683 21.1875 14.752 21.1865 14.6097C21.1736 12.9221 20.6668 11.5634 19.642 10.5654C18.6257 9.57561 17.3599 9.07757 15.8624 9.06715ZM16.7582 17.0914C16.7582 17.0914 17.1209 17.1219 17.3162 16.8816L17.697 16.403C17.8807 16.1657 18.3239 16.0143 18.758 16.2559C19.0832 16.4412 19.399 16.6427 19.7041 16.8596C19.9357 17.0297 20.3625 17.381 20.5218 17.5121C20.5606 17.544 20.5835 17.5629 20.5839 17.5629C20.8649 17.7999 20.9297 18.1479 20.7384 18.5149C20.7384 18.5159 20.7381 18.5173 20.7377 18.5187C20.7374 18.5197 20.7372 18.5207 20.737 18.5215C20.7369 18.5219 20.7369 18.5222 20.7369 18.5225C20.5262 18.8874 20.2587 19.2165 19.9444 19.4974C19.9425 19.4984 19.9416 19.4993 19.9407 19.5003C19.9398 19.5012 19.939 19.502 19.9374 19.5029C19.6643 19.7308 19.3961 19.8604 19.1326 19.8916C19.0938 19.8984 19.0544 19.9008 19.0151 19.8989C18.8989 19.9 18.7833 19.8823 18.6729 19.8463L18.6643 19.8338C18.2584 19.7194 17.5807 19.4332 16.4521 18.8112C15.799 18.4555 15.1773 18.0452 14.5935 17.5846C14.3009 17.3539 14.0218 17.1066 13.7575 16.844L13.7294 16.8158L13.7012 16.7877L13.673 16.7596C13.6668 16.7535 13.6606 16.7473 13.6544 16.741L13.6543 16.7409L13.6449 16.7314C13.382 16.4675 13.1344 16.1886 12.9035 15.8963C12.4426 15.3131 12.0319 14.6921 11.6757 14.0398C11.0531 12.912 10.7666 12.2355 10.6521 11.8294L10.6396 11.8209C10.6037 11.7105 10.586 11.595 10.5872 11.479C10.5851 11.4397 10.5875 11.4003 10.5943 11.3616C10.6271 11.0988 10.757 10.8306 10.9839 10.557C10.9848 10.5554 10.9857 10.5546 10.9866 10.5537C10.9871 10.5532 10.9876 10.5528 10.9881 10.5522C10.9885 10.5516 10.989 10.5509 10.9895 10.55C11.2705 10.236 11.6 9.96884 11.9653 9.75855C11.9662 9.75855 11.9675 9.75813 11.9688 9.75769L11.9688 9.75769C11.9703 9.75721 11.9718 9.75672 11.973 9.75672C12.3403 9.56559 12.6886 9.63042 12.9255 9.90962C12.9274 9.91145 13.4187 10.5007 13.6296 10.7885C13.8467 11.0936 14.0483 11.4094 14.2338 11.7346C14.4756 12.168 14.3241 12.6117 14.0866 12.7945L13.6075 13.175C13.3657 13.3701 13.3975 13.7324 13.3975 13.7324C13.3975 13.7324 14.1071 16.4152 16.7582 17.0914Z"
+                                                fill="#7360F2" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__sign-in">
+                            <a href="#" class="header__sign-in-link default-btn-little">
+                                Войти в аккаунт
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+<main class="main">
+    <section class="lessons">
+        <div class="container">
+            <div class="lessons__top">
+                <div class="lessons__block">
+                    <h1 class="lessons__title section-title">Наши уроки</h1>
+                    <p class="lessons__desc">Более 90 уроков в записи на любую тематику и любого уровня сложности
+                    </p>
+                </div>
+                <div class="lessons__block">
+                    <div class="custom-select">
+                        <select>
+                            <option value="0">Материалы</option>
+                            <option value="1">Акварель</option>
+                            <option value="2">Краски</option>
+                            <option value="3">Что-то ещё</option>
+                        </select>
+                    </div>
+                    <div class="custom-select">
+                        <select>
+                            <option value="0">Преподователи</option>
+                            <option value="1">Ковалик А.</option>
+                            <option value="2">Сулейманова И.</option>
+                            <option value="3">Ягодкина Т.</option>
+                            <option value="4">Заболоцкая Т.</option>
+                            <option value="5">Сулейманова И.</option>
+                        </select>
+                    </div>
+                    <div class="custom-select">
+                        <select>
+                            <option value="0">Сюжет</option>
+                            <option value="1">Архитектура</option>
+                            <option value="2">Пейзаж</option>
+                            <option value="3">Ботаническая живопись</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="lessons__slider">
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-1.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-2.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-3.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-4.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-5.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-6.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-7.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-8.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-9.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-10.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-11.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-12.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-1.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-2.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-3.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-4.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-5.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-6.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-7.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-8.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-9.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-10.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-11.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lessons__slider-item">
+                    <div class="lessons__slider-box">
+                        <a href="#" class="lessons__slider-link">
+                            <img class="lessons__slider-image" src="images/lessons/lesson-12.jpg" alt="#">
+                        </a>
+                        <div class="lessons__slider-container lessons__slider-title">
+                            <h3 class="lessons__slider-name">Натюрморт</h3>
+                        </div>
+                        <div class="lessons__slider-container lessons__slider-tags">
+                            <span class="lessons__slider-tag">Акварель</span>
+                            <span class="lessons__slider-tag">Архитектура</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrap">
+            <div class="footer__logo">
+                <img src="images/footer-logo.svg" alt="#" class="footer__image">
+            </div>
+            <div class="footer__block">
+                <p class="footer__text">
+                    <a href="#" class="footer__link">Договор оферты</a>
+                </p>
+                <p class="footer__text">
+                    <a href="#" class="footer__link">Политика обработки персональных данных</a>
+                </p>
+            </div>
+            <div class="footer__block">
+                <p class="footer__text">ФЛП Литвин Е.Г.</p>
+                <p class="footer__text">Адрес: 01103, г. Киев, ул. Антоновича 165</p>
+            </div>
+            <div class="footer__block soc">
+                <p class="footer__text">
+                    <a href="#" class="footer__link-soc inst"><span>Instagram</span>
+                    </a>
+                </p>
+                <p class="footer__text">
+                    <a href="#" class="footer__link-soc fb"><span>Facebook</span>
+                    </a>
+                </p>
+            </div>
+            <div class="footer__copyright">
+                <p class="footer__text">lelekastudio.com © 2019-2022</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+
+</html>
